@@ -1,0 +1,36 @@
+body {
+  background-color: violet;
+  color: white;
+  font: normal 18pt Arial;
+}
+#ClickMe {
+  border-radius: 15px;
+  background-color: rebeccapurple;
+  color: white;
+  width: 250px;
+  height: 100%;
+  min-height: 50px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+#ClickMe:hover {
+  background-color: gray;
+}
+.Countainer{
+    padding: 20px;
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border-width: 5px;
+    min-height: 300px;
+}
+.Countainer :nth-child(1){
+    color: black;
+}
